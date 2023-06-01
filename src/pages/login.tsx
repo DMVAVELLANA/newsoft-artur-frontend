@@ -43,7 +43,16 @@ const Login: NextPage = () => {
       <Container>
         <Row className="justify-content-center align-items-center px-3">
               <Col md={5} className="bg-white border p-5">
-                <div className="">
+              <div className="d-md-flex justify-content-center">
+                <svg
+                  width="200"
+                  height="150"
+                >
+                  <title>Logo</title>
+                  <use xlinkHref="/assets/brand/coreui.svg#full" />
+                </svg>
+              </div>
+                <div>
                   <p className="text-black-50">Sign In to your account</p>
 
                   <form onSubmit={login}>

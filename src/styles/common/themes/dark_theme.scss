@@ -1,0 +1,100 @@
+// Brand colors
+$ns-primary-color: red;
+$ns-secondary-color: pink;
+
+//Basic colors
+$ns-sucess-color: #43AA8B;
+$ns-danger-color: #DB504A;
+$ns-warning-color: #E3B505;
+$ns-info-color: #9CAFB7;
+
+//Colors for especific elements
+$ns-background-color: #ffffff;
+$ns-secondary-background-color: #f8f9fa;
+$ns-hover-background-color: #ebedef;
+$ns-text-color: #374253;
+
+.wrapper {
+  background: $ns-background-color;
+}
+
+.header {
+  background: $ns-background-color;
+
+  .header-brand {
+    color: $ns-primary-color;
+  }
+
+  .header-navbar {
+
+    .header-toggler {
+      color: $ns-primary-color;
+    }
+
+    .header-nav {
+      .nav-link {
+        color: $ns-primary-color;
+
+        &:hover {
+          color: $ns-secondary-color;
+        }
+      }
+    }
+  }
+
+  .breadcrumb {
+    min-height: 2rem;
+
+    .breadcrumb-item {
+      a {
+        color: $header-link-color;
+
+        &:hover {
+          color: $header-link-color-hover;
+        }
+      }
+    }
+  }
+}
+  
+  // Sidebar
+  .sidebar {
+    background: $ns-secondary-background-color;
+    color: $ns-primary-color;
+  
+    .sidebar-brand {
+
+      background-color: $ns-secondary-background-color;
+
+      svg {
+        fill: $ns-text-color;
+      }
+    }
+  
+    .sidebar-nav .nav-group.show {
+      background-color: $ns-hover-background-color;
+    }
+
+    .sidebar-nav .nav-title {
+      color: $ns-text-color;
+    }
+
+    .sidebar-nav .nav-link {
+      color: $ns-text-color;
+  
+      &:hover {
+        color: $ns-primary-color;
+      }
+    }
+    
+    .sidebar-toggler {
+      background-color: $ns-secondary-background-color;
+      color: $ns-primary-color;
+
+      &:hover {
+        background-color: $ns-hover-background-color;
+        color: $ns-secondary-color;
+      }
+    }
+
+  }
