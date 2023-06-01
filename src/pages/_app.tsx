@@ -1,4 +1,4 @@
-import '@styles/globals.scss'
+import '@styles/main.scss'
 import type { AppProps } from 'next/app'
 // Next.js allows you to import CSS directly in .js files.
 // It handles optimization and all the necessary Webpack configuration to make this work.
