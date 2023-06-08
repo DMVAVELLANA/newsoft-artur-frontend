@@ -39,7 +39,7 @@ const Login: NextPage = () => {
   }
 
   return (
-    <div className="bg-light min-vh-100 d-flex flex-row align-items-center dark:bg-transparent">
+    <div className="min-vh-100 d-flex flex-row align-items-center background-theme">
       <Container>
         <Row className="justify-content-center align-items-center px-3">
               <Col md={5} className="bg-white border p-5">
@@ -93,7 +93,7 @@ const Login: NextPage = () => {
 
                     <Row>
                       <Col xs={6}>
-                        <Button className="px-4" variant="primary" type="submit" disabled={submitting}>Login</Button>
+                        <Button className="px-4 theme-button" variant="primary" type="submit" disabled={submitting}>Login</Button>
                       </Col>
                       <Col xs={6} className="text-end">
                         <Button className="px-0" variant="link" type="submit">

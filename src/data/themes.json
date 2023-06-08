@@ -1,0 +1,12 @@
+{
+  "ns-theme": {
+    "primaryColor": "#005297",
+    "secondaryColor": "#008eb1",
+    "logoRoute": "/assets/brand/newsoft.svg"
+  },
+  "coreui-default-theme": {
+    "primaryColor": "#4f5d73",
+    "secondaryColor": "#3399ff",
+    "logoRoute": "/assets/brand/coreui.svg"
+  }
+}

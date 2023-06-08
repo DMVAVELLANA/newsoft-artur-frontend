@@ -38,7 +38,7 @@ const NewPassword: NextPage = () => {
   }
 
   return (
-    <div className="bg-light min-vh-100 d-flex flex-row align-items-center dark:bg-transparent">
+    <div className="min-vh-100 d-flex flex-row align-items-center background-theme">
       <Container>
         <Row className="justify-content-center">
           <Col md={6}>
@@ -71,7 +71,7 @@ const NewPassword: NextPage = () => {
                     />
                   </InputGroup>
 
-                  <Button type="submit" className="d-block w-100" disabled={submitting} variant="primary">
+                  <Button type="submit" className="d-block w-100 theme-button" disabled={submitting} variant="primary">
                     Submit
                   </Button>
                 </form>

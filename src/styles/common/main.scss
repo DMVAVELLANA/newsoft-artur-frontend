@@ -10,5 +10,6 @@ $enable-negative-margins: true;
 
 @import "~nprogress/nprogress.css";
 
-@import "themes/ns-theme"
+@import "themes/theme-template.scss";
+@import "themes/ns-light-theme.scss";
 
